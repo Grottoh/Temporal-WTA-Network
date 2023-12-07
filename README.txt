@@ -1,5 +1,6 @@
  - Everything should be run from <main.py>.
- - Before running an experiment, the data must be available in the appropriate place (../[02LF] Networks/*).
+ - Before running an experiment, create directories <../[00LF] data/> and <../[03LF] experiments/>
+ - Before running an experiment, the data must be available in the appropriate place (../[00LF] data/*).
  - Toy data can be generated using the <*Toy*.to_dataframe()> functions present in <main.py>.
  - MNIST and TIDIGITS data must be downloaded first from an outside source.
  - Experiments can be run by uncommenting the appropriate experiment in <main.py>.
